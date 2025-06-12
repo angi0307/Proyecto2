@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="Accion1.html" method="get">
+    Nombre
+    <input type="text" name="cajatexto" class="redon">
+    <br>
+    <br>
+    Contrasena
+    <input type="password" name="cajacontrasena" class="redon">
+    <br>
+    <br>
+    Selecciona tus intereses <br>
+    <input type="checkbox" name="check1">Peliculas <br>
+    <br>
+    <input type="checkbox" name="check2">Libros <br>
+    <br>
+    <input type="checkbox" name="check3">Internet <br>
+    <br>
+    
+    
+    <br>
+    
+    Sexo <br>
+    <input type="radio" name="genero" value="Masculino"> Masculino
+
+    <input type="radio" name="genero" value="Femenino">Femenino
+     <br>
+     <br>
+    Fichero adjunto <br>
+    <input type="file" value="Agregar archivo"> <br>
+    <br>
+    <input type="submit"> <br>
+</form>    
+</body>
+</html>
